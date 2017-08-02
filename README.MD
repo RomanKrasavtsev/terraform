@@ -1,8 +1,8 @@
 # Terraform
 
-```terraform apply```
+`terraform apply`
 
-```terraform state list```
+`terraform state list`
 
 ```terraform show```
 
