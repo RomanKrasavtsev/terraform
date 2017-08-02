@@ -15,3 +15,5 @@
 `terraform plan`
 
 `terraform validate`
+
+`terraform fmt`
