@@ -1,5 +1,7 @@
 # Terraform
 
+## commands
+
 `terraform apply`
 
 `terraform state list`
@@ -11,3 +13,5 @@
 `terraform state show id`
 
 `terraform plan`
+
+`terraform validate`
