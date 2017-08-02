@@ -4,10 +4,10 @@
 
 `terraform state list`
 
-```terraform show```
+`terraform show`
 
-```terraform state show```
+`terraform state show`
 
-```terraform state show id```
+`terraform state show id`
 
-```terraform plan```
+`terraform plan`
