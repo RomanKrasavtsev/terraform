@@ -1,0 +1,14 @@
+provider "aws" {
+  region = "eu-central-1"
+}
+
+resource "aws_instance" "instance" {
+  ami                    = "ami-1c45e273"
+  instance_type          = "t2.small"
+  key_name               = "Key"
+  vpc_security_group_ids = ["sg-12345678"]
+  
+  tags {
+    Name = "Instance"
+  }
+}
