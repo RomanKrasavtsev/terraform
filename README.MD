@@ -17,3 +17,5 @@
 `terraform validate`
 
 `terraform fmt`
+
+`terraform graph`
