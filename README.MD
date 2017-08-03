@@ -2,7 +2,9 @@
 
 ## commands
 
-`terraform apply`
+`terraform apply -parallelism`
+
+`terraform destroy -parallelism`
 
 `terraform state list`
 
@@ -12,10 +14,12 @@
 
 `terraform state show id`
 
-`terraform plan`
+`terraform plan -parallelism`
 
 `terraform validate`
 
 `terraform fmt`
 
-`terraform graph`
+`terraform graph --verbose`
+
+`terraform taint $resource_name`
