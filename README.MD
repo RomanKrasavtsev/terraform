@@ -23,3 +23,5 @@
 `terraform graph --verbose`
 
 `terraform taint $resource_name`
+
+`terraform get`
