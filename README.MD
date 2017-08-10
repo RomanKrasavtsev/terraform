@@ -24,4 +24,4 @@
 
 `terraform taint $resource_name`
 
-`terraform get`
+`terraform get -update`
