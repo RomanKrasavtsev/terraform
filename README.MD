@@ -25,3 +25,5 @@
 `terraform taint $resource_name`
 
 `terraform get -update`
+
+`terraform output`
